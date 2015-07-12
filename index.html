@@ -4,6 +4,7 @@ title: 我的BLOG
 ---
 <h2>{{ page.title }}</h2>
 <p>最新文章this is test</p>
+<p>最新文章this is test2</p>
 <ul>
     {% for post in site.posts %}
 	<li>{{ post.date | date_to_string }}<a href = "{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
